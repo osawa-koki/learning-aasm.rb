@@ -32,8 +32,8 @@ GEM
     unicode-display_width (2.5.0)
 
 PLATFORMS
-  x86_64-linux
   aarch64-linux
+  x86_64-linux
 
 DEPENDENCIES
   aasm (~> 5.5)
