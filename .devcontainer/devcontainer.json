@@ -23,7 +23,18 @@
   "postCreateCommand": "cat /etc/os-release && ruby --version",
 
   // Configure tool-specific properties.
-  "customizations": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "EditorConfig.EditorConfig",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "Shopify.ruby-extensions-pack",
+        "Shopify.ruby-lsp"
+      ]
+    }
+  },
 
   // Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
   "remoteUser": "root"
