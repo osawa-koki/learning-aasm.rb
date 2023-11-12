@@ -5,7 +5,7 @@ on:
     tags: [ 'v-*' ]
 
 jobs:
-  ci:
+  exec:
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v3
